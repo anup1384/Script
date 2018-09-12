@@ -1,7 +1,7 @@
 #!/bin/bash
 
 zone_id="17a922skjljlksajdlkaklsajdkljdsd"
-email="bdmgroup@outlook.com"
+email="anup.hnu@outlook.com"
 auth_key="djsjklsjlskslnskansk9sxs"
 
 curl -X GET "https://api.cloudflare.com/client/v4/zones/${zone_id}/settings/security_level" -H "X-Auth-Email: ${email}" -H "X-Auth-Key: ${auth_key}" -H "Content-Type:application/json" | grep -w "under_attack"
