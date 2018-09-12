@@ -9,9 +9,9 @@ MESSAGE="Table will be created on 1st of next month or create manually"
 readonly connections=(       
                         
                             
-                            'stg.broctagon.com|JeVMzRRUnI4VHXdHRggK3k8P2BDHGv54'
-                            'qa.broctagon.com|IQYKgbPOx4mb8xXyD6xaNjjWmxqENS2Q'
-                            'dev.brocatgon.com|IE1qhWwlY72E3VivrlzfAxtrxa9GOYYk'
+                            'stg.anup.com|JeVMzRRUnI4VHXdHRggK3k8P2BDHGv54'
+                            'qa.anup.com|IQYKgbPOx4mb8xXyD6xaNjjWmxqENS2Q'
+                            'dev.anup.com|IE1qhWwlY72E3VivrlzfAxtrxa9GOYYk'
                     )
 
 function set_connections(){
